@@ -7,16 +7,28 @@
 ## 🧠 AI Explanation
 
 ### Approach
-Iterates through the input elements sequentially to check conditions and construct the target result.
+Analyzes the problem constraints for **Power of Two** using Bit Manipulation. The algorithm evaluates input states and applies bitwise arithmetic and binary bit flags to achieve an optimal solution without unnecessary computations.
 
-### Time Complexity
-**O(n)**
+### Intuition
+Recognizing that Power of Two requires efficient state processing, the approach leverages Bit Manipulation properties to eliminate redundant branches and compute results directly.
 
-### Space Complexity
-**O(1)**
+### Algorithm
+1. Receive input data and initialize operational structures.
+2. Apply Bit Manipulation evaluation to check problem constraints for **Power of Two**.
+3. Update solution state according to logic rules.
+4. Return final computed outcome.
+
+### Why This Works
+The mathematical and algorithmic properties of Bit Manipulation guarantee that all valid constraints for **Power of Two** are satisfied without missing edge cases.
+
+### Complexity
+
+**Time Complexity:** O(n) — Dependent on input traversal and operations.
+
+**Space Complexity:** O(1) — Storage allocation for variables and data structures.
 
 ### Alternative Approach
-Use a **Brute Force** nested loop traversal to evaluate all candidate pairs.
+Use a **Brute Force** traversal to check all candidates.
 
 - **Time Complexity:** `O(n²)`
 - **Space Complexity:** `O(1)`
